@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 const list = [
   {
     id: "1",
@@ -34,6 +32,8 @@ const list = [
     telefono: "88888888",
   },
 ];
+
+import { useState } from "react";
 
 const App = () => {
   const [data, setData] = useState(list);
