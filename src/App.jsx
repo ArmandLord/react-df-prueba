@@ -60,7 +60,7 @@ const App = () => {
       {data.map((ele) => (
         <div key={ele.id}>
           <p>prueba</p>
-          <p>prueba2</p>
+          <p>ramita</p>
           <p>{ele.nombre}</p>
           <p>{ele.telefono}</p>
           <br />
